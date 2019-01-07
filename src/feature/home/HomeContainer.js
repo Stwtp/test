@@ -6,10 +6,21 @@ import {
  } from 'react-native'
 import { Actions } from 'react-native-router-flux'
 import { connect } from 'react-redux'
+import firebase from 'react-native-firebase'
+
 import config from '../../config'
 
 class HomeContainer extends Component {
 
+  componentDidMount() {
+    firebase.auth()
+    .signInAnonymously()
+    .then(credential => {
+      if (credential) {
+        console.log('default app user ->', credential.user.toJSON());
+      }
+    })
+  }
   render() {
     return (
       <View>
