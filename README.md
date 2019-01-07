@@ -1,5 +1,6 @@
 # How to run this project
 * run **yarn install**
+* open android emulator or ios simulator
 * run **yarn run android** or **yarn run ios**
 
 # How to add firebase
