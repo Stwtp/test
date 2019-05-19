@@ -1,6 +1,6 @@
 const config = {
-  "name": "stater",
-  "displayName": "stater"
+  "name": "test",
+  "displayName": "test"
 }
 
 export default config
