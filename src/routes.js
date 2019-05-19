@@ -4,8 +4,8 @@ import { config } from './config'
 import * as scene from './scene'
 
 export const Scenes = [
-  { key: 'Home', component: 'Home', title: 'Home', options: { initial: true} },
-  { key: 'About', component: 'About', title: 'About', options: {} },
+  { key: 'FirstScene', component: 'FirstScene', title: 'FirstScene', options: { initial: true} },
+  { key: 'SecondScene', component: 'SecondScene', title: 'SecondScene', options: {} },
 ]
 
 const renderScenes = (sceneArr = [], module) => {

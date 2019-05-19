@@ -1,6 +1,4 @@
-import reducer from './reducer'
-import { HomeContainer } from './home'
-export {
-  reducer,
-  HomeContainer,
-}
+import { CalculateSequenceNumber } from './calculateSequenceNumber'
+import { FindRestaurant } from './findRestaurant'
+
+export { CalculateSequenceNumber, FindRestaurant }

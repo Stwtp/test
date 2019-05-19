@@ -1,7 +1,7 @@
-import Home from './homeScene'
-import About from './aboutScene'
+import FirstScene from './FirstScene'
+import SecondScene from './SecondScene'
 
 export {
-  Home,
-  About,
+  FirstScene,
+  SecondScene,
 }
