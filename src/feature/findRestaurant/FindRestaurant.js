@@ -7,10 +7,9 @@ import {
   FlatList,
   Dimensions
  } from 'react-native'
-import { Actions } from 'react-native-router-flux'
 
 import axios from 'axios'
-const screenHeight = Dimensions.get('screen').height
+
 class FindRestaurant extends Component {
   constructor(props){
     super(props)
@@ -61,6 +60,7 @@ class FindRestaurant extends Component {
     )
   }
 }
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,

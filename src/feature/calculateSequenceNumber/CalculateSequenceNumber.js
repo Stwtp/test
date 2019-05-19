@@ -7,9 +7,6 @@ import {
   ScrollView,
   Dimensions
  } from 'react-native'
-import { Actions } from 'react-native-router-flux'
-
-import axios from 'axios'
 const screenHeight = Dimensions.get('screen').height
 class CalculateSequenceNumber extends Component {
   constructor(props){
@@ -20,7 +17,7 @@ class CalculateSequenceNumber extends Component {
       isScrollable: false
     }
   }
-s
+
   next(x){
     const res = 3 + x * ( x - 1 )
     this.setState((state) => ({ sequence: [...state.sequence, res] }))
